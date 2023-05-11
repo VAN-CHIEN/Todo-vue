@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "LobsterRegular";
+   src:
+   local("LobsterRegular"),
+    url(../src/font/Lobster-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: "NotoSerifRegular";
+   src:
+   local("NotoSerifRegular"),
+    url(../src/font/NotoSerif-Regular.ttf);
+ }
+
+ html {
+    font-family: "NotoSerifRegular";
+ }
+ h1 {
+   font-family: "LobsterRegular";
+ }
+.lobster-regular {
+    font-family: "LobsterRegular";
+}
